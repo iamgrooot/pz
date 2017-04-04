@@ -46,6 +46,12 @@ FlowRouter.route('/contact', {
     }
 });
 
+FlowRouter.route('/designs', {
+    action: function() {
+        BlazeLayout.render("mainLayout", {content: "designs"});
+    }
+});
+
 FlowRouter.route('/faqs', {
     action: function() {
         BlazeLayout.render("mainLayout", {content: "faqs"});
