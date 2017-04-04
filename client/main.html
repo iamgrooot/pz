@@ -1,0 +1,20 @@
+<template name="mainLayout">
+<head>
+    <meta charset="utf-8">
+    <title>PrintZilla | Slogan</title>
+    <meta name="description" content="Printshop Site">
+
+    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,800" rel="stylesheet">
+</head>
+    <div id="wrapper">
+            {{> header }}
+
+            {{>Template.dynamic template=content}}
+
+            {{> footer }}
+    </div>
+</template>

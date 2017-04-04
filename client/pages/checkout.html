@@ -1,0 +1,199 @@
+<template name="checkout">
+            
+            <div class="main">
+                <div class="page-header larger parallax custom" style="background-image:url(img/page-header-bg.jpg)">
+                    <div class="container">
+                        <h1>Checkout</h1>
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li class="active">Checkout</li>
+                        </ol>
+                    </div><!-- End .container -->
+                </div><!-- End .page-header -->
+
+                <div class="container">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h2 class="mb30">Personal Details</h2>
+
+                                <label>First name</label>
+                                <input type="text" class="form-control" placeholder="First name" required>
+
+                                <label>Last name</label>
+                                <input type="text" class="form-control" placeholder="Last name" required>
+
+                                <label>Your email</label>
+                                <input type="email" class="form-control" placeholder="Your email" required>
+
+                                <label>Your phone</label>
+                                <input type="text" class="form-control" placeholder="Your phone" required>
+
+                                <label>Your fax</label>
+                                <input type="text" class="form-control" placeholder="Your fax" required>
+
+                                <label>Your company</label>
+                                <input type="text" class="form-control" placeholder="Your company" required>
+
+                                <label>Your password</label>
+                                <input type="password" class="form-control" placeholder="Your password" required>
+
+                                <label>Your password <small>(confirm)</small></label>
+                                <input type="password" class="form-control" placeholder="Your password" required>
+
+                                <div class="checkbox">
+                                  <label class="custom-checkbox-wrapper">
+                                    <span class="custom-checkbox-container">
+                                        <input type="checkbox" name="discount" value="discount">
+                                        <span class="custom-checkbox-icon"></span>
+                                    </span>
+                                   <span>Subscribe to our newsletter and get a discount.</span>
+                                  </label>
+                                </div><!-- End .checkbox -->
+                            </div><!-- End .col-sm-6 -->
+                            <div class="col-sm-6">
+                                <h2 class="mb30">Address Information</h2>
+
+                                <label>Your address 1</label>
+                                <input type="text" class="form-control" placeholder="Your address 1" required>
+
+                                <label>Your address 2</label>
+                                <input type="text" class="form-control" placeholder="Your address 2" required>
+
+                                <label>Your country</label>
+                                <select class="form-control">
+                                    <option value="#">England</option>
+                                    <option value="#">Germany</option>
+                                    <option value="#">France</option>
+                                </select>
+
+                                <label>Your region/state</label>
+                                <select class="form-control">
+                                    <option value="#">State name</option>
+                                    <option value="#">State name</option>
+                                    <option value="#">State name</option>
+                                </select>
+
+                                <label>Your city</label>
+                                <input type="text" class="form-control" placeholder="Your city" required>
+
+                                <label>Your postcode</label>
+                                <input type="text" class="form-control" placeholder="Your postcode" required>
+
+
+                                <div class="checkbox">
+                                  <label class="custom-checkbox-wrapper">
+                                    <span class="custom-checkbox-container">
+                                        <input type="checkbox" name="discount" value="discount">
+                                        <span class="custom-checkbox-icon"></span>
+                                    </span>
+                                   <span>I have read and agree to <a href="#">Privacy Policy</a>.</span>
+                                  </label>
+                                </div><!-- End .checkbox -->
+
+                                <div class="mb15"></div><!-- margin -->
+
+                                <button type="submit" class="btn btn-custom min-width-sm">CONTINUE</button>
+                            </div><!-- End .col-sm-6 -->
+                        </div><!-- end .row -->
+                    </form>
+
+                    <div class="mb50"></div><!-- margin -->
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Product Code</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="info-col">
+                                        <div class="product">
+                                            <figure>
+                                                <a href="product.html" title="Product Name">
+                                                    <img src="img/products/product1.jpg" alt="Product image" class="product-image">
+                                                    <img src="img/products/product1-hover.jpg" alt="Product image" class="image-hover">
+                                                </a>
+                                            </figure>
+                                            <div class="product-info">
+                                                <h3 class="product-title"><a href="product.html">Debitis reicie ndis facili salis</a></h3>
+                                                <ul>
+                                                    <li><span>Size:</span> SM</li>
+                                                    <li><span>Color:</span> Black</li>
+                                                    <li><span>Dimension:</span> 16 x 20 x 30</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- End .product -->
+                                    </td>
+                                    <td class="code-col">MXCA1000Y9</td>
+                                    <td class="price-col">$999.00</td>
+                                     <td class="quantity-col">
+                                        <input type="number" class="form-control" min="1" max="999" placeholder="1">
+                                    </td>
+                                    <td class="subtotal-col">$999.00</td>
+                                    <td class="delete-col"><a href="#" class="delete-btn"><i class="fa fa-times"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="info-col">
+                                        <div class="product">
+                                            <figure>
+                                                <a href="product.html" title="Product Name">
+                                                    <img src="img/products/product2.jpg" alt="Product image" class="product-image">
+                                                </a>
+                                            </figure>
+                                            <div class="product-info">
+                                                <h3 class="product-title"><a href="product.html">Debitis reicie ndis facili salis</a></h3>
+                                                <ul>
+                                                    <li><span>Size:</span> XL</li>
+                                                    <li><span>Color:</span> Brown</li>
+                                                    <li><span>Dimension:</span> 80 x 12 x 62</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- End .product -->
+                                    </td>
+                                    <td class="code-col">WSAX983022</td>
+                                    <td class="price-col">$767.00</td>
+                                    <td class="quantity-col">
+                                        <input type="number" class="form-control" min="1" max="999" placeholder="1">
+                                    </td>
+                                    <td class="subtotal-col">$767.00</td>
+                                    <td class="delete-col"><a href="#" class="delete-btn"><i class="fa fa-times"></i></a></td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td>Subtotal:</td>
+                                    <td colspan="5">$1999.00</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td>Shipping:</td>
+                                    <td colspan="5">$90.00</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td>Tax:</td>
+                                    <td colspan="5">$11.00</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td>Total:</td>
+                                    <td colspan="5">$2100.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- End .table-responsive -->
+
+                    <div class="checkout-action text-center">
+                        <a href="category.html" class="btn btn-black">Continue Shopping</a>
+                        <button type="submit" class="btn btn-custom">CONFIRM ORDER</button>
+                    </div><!-- End .text-center -->
+
+                    <div class="mb90"></div><!-- margin -->
+                </div><!-- End .container -->
+            </div><!-- End .main -->
+
+</template>

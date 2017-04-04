@@ -1,0 +1,246 @@
+<template name="cart">
+            
+            <div class="main">
+                <div class="page-header larger parallax custom" style="background-image:url(img/page-header-bg.jpg)">
+                    <div class="container">
+                        <h1>Cart</h1>
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li class="active">Cart</li>
+                        </ol>
+                    </div><!-- End .container -->
+                </div><!-- End .page-header -->
+
+                <div class="container">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Product Code</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="info-col">
+                                        <div class="product">
+                                            <figure>
+                                                <a href="product.html" title="Product Name">
+                                                    <img src="img/products/product1.jpg" alt="Product image" class="product-image">
+                                                    <img src="img/products/product1-hover.jpg" alt="Product image" class="image-hover">
+                                                </a>
+                                            </figure>
+                                            <div class="product-info">
+                                                <h3 class="product-title"><a href="product.html">Debitis reicie ndis facili salis</a></h3>
+                                                <ul>
+                                                    <li><span>Size:</span> SM</li>
+                                                    <li><span>Color:</span> Black</li>
+                                                    <li><span>Dimension:</span> 16 x 20 x 30</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- End .product -->
+                                    </td>
+                                    <td class="code-col">MXCA1000Y9</td>
+                                    <td class="price-col">$999.00</td>
+                                    <td class="quantity-col">
+                                        <input type="number" class="form-control" min="1" max="999" placeholder="1">
+                                    </td>
+                                    <td class="subtotal-col">$999.00</td>
+                                    <td class="delete-col">
+                                        <a href="#" class="delete-btn" title="Delete product"><i class="fa fa-times"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="info-col">
+                                        <div class="product">
+                                            <figure>
+                                                <a href="product.html" title="Product Name">
+                                                    <img src="img/products/product2.jpg" alt="Product image" class="product-image">
+                                                </a>
+                                            </figure>
+                                            <div class="product-info">
+                                                <h3 class="product-title"><a href="product.html">Debitis reicie ndis facili salis</a></h3>
+                                                <ul>
+                                                    <li><span>Size:</span> XL</li>
+                                                    <li><span>Color:</span> Brown</li>
+                                                    <li><span>Dimension:</span> 80 x 12 x 62</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- End .product -->
+                                    </td>
+                                    <td class="code-col">WSAX983022</td>
+                                    <td class="price-col">$767.00</td>
+                                    <td class="quantity-col">
+                                        <input type="number" class="form-control" min="1" max="999" placeholder="1">
+                                    </td>
+                                    <td class="subtotal-col">$767.00</td>
+                                    <td class="delete-col">
+                                        <a href="#" class="delete-btn" title="Delete product"><i class="fa fa-times"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="info-col">
+                                        <div class="product">
+                                            <figure>
+                                                <a href="product.html" title="Product Name">
+                                                    <img src="img/products/product5.jpg" alt="Product image" class="product-image">
+                                                </a>
+                                            </figure>
+                                            <div class="product-info">
+                                                <h3 class="product-title"><a href="product.html">Debitis reicie ndis facili salis</a></h3>
+                                                <ul>
+                                                    <li><span>Size:</span> M</li>
+                                                    <li><span>Color:</span> Gray</li>
+                                                    <li><span>Dimension:</span> 22 x 44 x 18</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- End .product -->
+                                    </td>
+                                    <td class="code-col">XCA1000EPA</td>
+                                    <td class="price-col">$222.00</td>
+                                     <td class="quantity-col">
+                                        <input type="number" class="form-control" min="1" max="999" placeholder="1">
+                                    </td>
+                                    <td class="subtotal-col">$222.00</td>
+                                    <td class="delete-col">
+                                        <a href="#" class="delete-btn" title="Delete product"><i class="fa fa-times"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- End .table-responsive -->
+                </div><!-- End .container -->
+
+                <div class="mb10"></div><!-- margin -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="shipping-container">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-custom">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    SHIPPING &amp; TAXES
+                                                </a>
+                                            </h4>
+                                        </div><!-- End .panel-heading -->
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <form action="#">
+                                                    <div class="row">
+                                                        <div class="form-group col-sm-6">
+                                                            <label>Your Country *</label>
+                                                            <select class="form-control">
+                                                                <option value="#">United States</option>
+                                                                <option value="#">England</option>
+                                                                <option value="#">Germany</option>
+                                                            </select>
+                                                        </div><!-- End .col-sm-6 -->
+                                                        <div class="form-group col-sm-6">
+                                                            <label>Region/State *</label>
+                                                            <select class="form-control">
+                                                                <option value="#">State Name</option>
+                                                                <option value="#">State Name</option>
+                                                                <option value="#">State Name</option>
+                                                            </select>
+                                                        </div><!-- End .col-sm-6 -->
+                                                    </div><!-- end .row -->
+                                                    <div class="row">
+                                                        <div class="form-group col-sm-6">
+                                                            <label>Post Code</label>
+                                                            <input type="text" class="form-control" placeholder="Post Code" required>
+                                                        </div><!-- End .col-sm-6 -->
+                                                        <div class="form-group col-sm-6">
+                                                            <label>Emergency Phone</label>
+                                                            <input type="text" class="form-control" placeholder="Phone" required>
+                                                        </div><!-- End .col-sm-6 -->
+                                                    </div><!-- end .row -->
+                                                    <button type="submit" class="btn btn-black">Apply Address</button>
+                                                </form>
+                                            </div><!-- End .panel-body -->
+                                        </div><!-- End .panel-collapse -->
+                                    </div><!-- End .panel -->
+                                    <div class="panel panel-custom">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                USE A DISCOUNT COUPON
+                                                </a>
+                                            </h4>
+                                        </div><!-- End .panel-heading -->
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <form action="#">
+                                                    <div class="row">
+                                                        <div class="form-group col-sm-6">
+                                                            <label>Pleae write your coupon code below</label>
+                                                            <input type="text" class="form-control" placeholder="Coupon Code">
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-black">Apply Coupon</button>
+                                                </form>
+                                            </div><!-- End .panel-body -->
+                                        </div><!-- End .panel-collapse -->
+                                    </div><!-- End .panel -->
+                                    <div class="panel panel-custom">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    SEND A GIFT COUPON
+                                                </a>
+                                            </h4>
+                                        </div><!-- End .panel-heading -->
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                <form action="#">
+                                                    <div class="row">
+                                                        <div class="form-group col-sm-6">
+                                                            <label>Pleae write a username you want to send gift to</label>
+                                                            <input type="text" class="form-control" placeholder="A username">
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-black">Send Gift</button>
+                                                </form>
+                                            </div><!-- End .panel-body -->
+                                        </div><!-- End .panel-collapse -->
+                                    </div><!-- End .panel -->
+                                </div><!-- End .panel-group -->
+                            </div><!-- End .shipping-container -->
+                        </div><!-- End .col-md-7 -->
+
+                        <div class="col-md-5">
+                            <table class="table table-bordered total-table">
+                                <tr>
+                                    <td>Subtotal:</td>
+                                    <td>$1999.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Shipping:</td>
+                                    <td>$90.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Tax:</td>
+                                    <td>$11.00</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td>Total:</td>
+                                    <td>$2100.00</td>
+                                </tr>
+                            </table>
+                            <a href="category.html" class="btn btn-black">Continue Shopping</a>
+                            <a href="checkout.html" class="btn btn-custom">CHECKOUT</a>
+                        </div><!-- End .col-md-4 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+
+                <div class="mb70"></div><!-- margin -->
+            </div><!-- End .main -->
+
+</template>
